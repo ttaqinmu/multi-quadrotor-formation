@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-quadrotor-formation"
+version = "2024.4.0"
+dependencies = [
+  "pettingzoo",
+  "pybullet",
+  "numpy",
+  "numba",
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "M Imam Muttaqin", email = "mimamtaqin@gmail.com"}
+]
+maintainers = [
+  {name = "M Imam Muttaqin", email = "mimamtaqin@gmail.com"}
+]
+description = "Lovely Spam! Wonderful Spam!"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["multi-agent", "quadrotor", "environment", "formation", "pattern"]
+
+[tool.mypy]
+ignore_missing_imports = true
