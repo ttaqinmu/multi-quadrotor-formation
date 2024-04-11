@@ -1,0 +1,3 @@
+[submodule "PyFlyt"]
+	path = PyFlyt
+	url = https://github.com/jjshoots/PyFlyt
